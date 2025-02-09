@@ -1,6 +1,8 @@
 # Ignore datasets
 datasets/
 
+test-files/
+
 # Ignore node_modules
 node_modules/
 
