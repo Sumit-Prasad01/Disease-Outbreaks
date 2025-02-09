@@ -14,7 +14,7 @@ def load_model(file_name):
 
 diabetes_model = load_model(os.path.join('saved_models', 'diabetes_model.sav'))
 heart_model = load_model(os.path.join('saved_models', 'heart_model.sav'))
-parkinsons_model = load_model(os.path.join('saved_models', 'parkinsons_model.sav'))
+parkinsons_model = load_model(os.path.join('saved_models', 'new_parkinsons_model.sav'))
 
 with st.sidebar:
     selected = option_menu('Prediction of Disease Outbreak System',
