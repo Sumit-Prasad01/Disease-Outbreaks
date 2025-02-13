@@ -124,7 +124,7 @@ def parkinsons_prediction():
         'HNR': input_field(col1, 'HNR', "number"),
         'RPDE': input_field(col2, 'RPDE', "number"),
         'DFA': input_field(col3, 'DFA', "number"),
-        'spread1': input_field(col1, 'spread1', "number"),
+        'spread1': input_field(col1, 'spread1', "int"),
         'spread2': input_field(col2, 'spread2', "number"),
         'D2': input_field(col3, 'D2', "number"),
         'PPE': input_field(col1, 'PPE', "number")
