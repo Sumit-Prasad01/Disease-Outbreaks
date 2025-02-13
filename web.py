@@ -14,7 +14,7 @@ def load_model(file_name):
 
 # Load models once to avoid reloading multiple times
 diabetes_model = load_model(os.path.join('saved_models', 'diabetes_model.sav'))
-heart_model = load_model(os.path.join('saved_models', 'new_heart_model.sav'))
+heart_model = load_model(os.path.join('saved_models', 'heart_model.sav'))
 parkinsons_model = load_model(os.path.join('saved_models', 'parkinsons_model.sav'))
 
 # Sidebar navigation
